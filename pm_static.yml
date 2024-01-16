@@ -1,0 +1,20 @@
+app:
+  address: 0x0
+  end_address: 0x80000
+  region: flash_primary
+  size: 0x80000
+custom_storage:
+  address: 0x80000
+  end_address: 0xfc000
+  region: flash_primary
+  size: 0x7C000
+settings_storage:
+  address: 0xfc000
+  end_address: 0x100000
+  region: flash_primary
+  size: 0x4000
+sram_primary:
+  address: 0x20000000
+  end_address: 0x20040000
+  region: sram_primary
+  size: 0x40000
