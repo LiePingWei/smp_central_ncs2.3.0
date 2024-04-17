@@ -1,7 +1,7 @@
 .. _central_smp:
 
 Bluetooth: Central UART with SMP cental based on ncs2.3.0
-#######################
+
 1. 52840 central OTA 52840 peripheral,or 52840 central OTA  5340 peripheral
 
 2. if device smp length is less than 2400, please change #define UPLOAD_CHUNK		2400;
@@ -11,6 +11,7 @@ Bluetooth: Central UART with SMP cental based on ncs2.3.0
 4. replase zcbor_decode.c  in "v2.3.0/modules/lib/zcbor/src"   from root foler
 
 how to test:
+
 Please follow below steps to test it.
 
 1.	cd: ../testing images 840central dfu 5340 periph folder.
